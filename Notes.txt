@@ -1,0 +1,14 @@
+Cloud Native Monitoring App
+    This Allows you to check your CPU and Memory Performance dynamically and in Real Time
+    Buildign an Apllication and Deploy it on Kubernetes
+
+    Architecture Process
+        1.Use Python and  Flask and build a web app that shoes the CPU performance adn Memory 
+        2.After building Apllication , Containarize it using Docker ,
+        3.Create a dockerFile , BUidl Image and Run container Locally
+        4.Create a amazon ECRElastic container Registry using Python Boto3 Module
+        5.IN ECR , we pushdocker image to store , retrieve and use teh docker images in secure adn efficient manner
+        6.In Deployment Phase  , We create elastic kubernetes cluster with nodes and deploy the apllication on kubernetes
+        7.Create Deploymetn and service using Python so taht our app is accssed from internet on Kubernetes.
+
+
