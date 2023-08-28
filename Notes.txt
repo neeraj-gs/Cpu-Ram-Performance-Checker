@@ -39,9 +39,12 @@ Starting with the Project
     4.Create a requirements.txt file to add all the modules we use in the CLoud App 
         pip3 install -r requirements.txt 
             All teh requireemtns are automatically installed into our project 
-            
+       5.Run the localHost:5000 , we see the cpu adn mem utilixation in real time  matric
+            Every time we refresh , we get a log thaat i a monitoring apllication crated in python usinf psutil and flask 
 
 
+    6.Now the basic Skeleton is done , we need to dessign the app 
+    
 
 
 
