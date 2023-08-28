@@ -44,6 +44,7 @@ Starting with the Project
 
 
     6.Now the basic Skeleton is done , we need to dessign the app 
+    7.render_templeate is sued to add styles in Flask APllicaiton
     
 
 

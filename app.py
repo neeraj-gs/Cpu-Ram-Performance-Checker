@@ -1,4 +1,4 @@
-import psutil
+import psutil,render_template
 from flask import Flask
 
 app = Flask(__name__) #A flask App created
@@ -12,7 +12,7 @@ def index(): #Run this when useer comes at / path
 
     if cpu_percent > 80 or mem_percent > 80: #When the cpu or mem > 80% then needs ot scale up 
         Message = "High CPU or Memory Utilization Detected. Need to Scale Up IMmediately"
-    return f"CPU Utilization:{cpu_percent} and Memory Utilized:{mem_percent}"
+    return render_template("index.html",cpu_metric=cpu_percent,mem_metric=mem_percent,message=Message)
 
 if __name__ == '__main__': #To run on our Local Machine
     app.run(debug=True,host='0.0.0.0')
