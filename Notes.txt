@@ -29,7 +29,8 @@ Pre-requisites for the Project
 
 
 
-
+Starting with the Project
+    1.Create a app.py file where we get the Cpu and Memory Metric
 
 
 
