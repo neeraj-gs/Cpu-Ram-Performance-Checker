@@ -37,7 +37,9 @@ Starting with the Project
         Start the flask app 
     3.Create a function that tells if the CPu or mem is >80% or more and make it better 
     4.Create a requirements.txt file to add all the modules we use in the CLoud App 
-    
+        pip3 install -r requirements.txt 
+            All teh requireemtns are automatically installed into our project 
+            
 
 
 
