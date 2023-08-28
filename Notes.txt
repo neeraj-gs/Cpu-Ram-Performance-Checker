@@ -31,6 +31,10 @@ Pre-requisites for the Project
 
 Starting with the Project
     1.Create a app.py file where we get the Cpu and Memory Metric
+        Moduels to get these Metrices , we need a module called psutil
+        Gets teh cpu and memory of the server 
+    2.We will use Flask Framework to create the Apllication 
+    
 
 
 
