@@ -45,6 +45,7 @@ Starting with the Project
 
     6.Now the basic Skeleton is done , we need to dessign the app 
     7.render_templeate is sued to add styles in Flask APllicaiton
+    8.Crete a templates folder woth index.html in it and then add it python for our app to look good
     
 
 
