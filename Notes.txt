@@ -12,3 +12,29 @@ Cloud Native Monitoring App
         7.Create Deploymetn and service using Python so taht our app is accssed from internet on Kubernetes.
 
 
+Pre-requisites for the Project
+    1.AWS Account 
+        We are creating Kubernetes Service ,ECR and deployig on AWS 
+    2.Programattic access and AWS configured With CLI 
+        Create Access and Secret Access Key , Account-->Securoty Credentials 
+        These Keys are required for programattic Access [Access Keys]
+        aws configure // access key -->secret key-->regieon,None
+        aws iam-list-users //to check which users are present 
+    3.Python 3 INstalled
+    4.Docker and Kubectl installed 
+    5.Code Editor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
