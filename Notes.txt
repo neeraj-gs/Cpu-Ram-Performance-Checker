@@ -34,6 +34,9 @@ Starting with the Project
         Moduels to get these Metrices , we need a module called psutil
         Gets teh cpu and memory of the server 
     2.We will use Flask Framework to create the Apllication 
+        Start the flask app 
+    3.Create a function that tells if the CPu or mem is >80% or more and make it better 
+    4.Create a requirements.txt file to add all the modules we use in the CLoud App 
     
 
 
