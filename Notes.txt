@@ -22,7 +22,10 @@ Pre-requisites for the Project
         aws iam-list-users //to check which users are present 
     3.Python 3 INstalled
     4.Docker and Kubectl installed 
+        Crete Docker file adn Dockerize apllication 
+        Kubectl is a Command line tool for kubernetes , to see if our pods and nodes or services are ready or not 
     5.Code Editor
+        Any code Editor 
 
 
 
