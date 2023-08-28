@@ -1,4 +1,4 @@
-import psuitl
+import psutil
 from flask import Flask
 
 app = Flask(__name__) #A flask App created
