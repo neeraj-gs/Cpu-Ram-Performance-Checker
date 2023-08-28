@@ -1,5 +1,5 @@
-import psutil,render_template
-from flask import Flask
+import psutil
+from flask import Flask,render_template
 
 app = Flask(__name__) #A flask App created
 
