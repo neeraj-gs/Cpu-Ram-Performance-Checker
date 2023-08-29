@@ -52,9 +52,13 @@ Starting with the Project
         TO dockerize the apllication and deploy as a form of container 
             In dcoker fiel craete instructions, so that apllication can create an image and run in the form of container 
             We sue Python as our base image
-            
 
 
+    10. WOrkflow to cerate a container out of an app 
+        Create a DOcker File 
+        Build an Image 
+        Runs the Container 
+    
 
 
 
