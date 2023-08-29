@@ -1,16 +1,16 @@
 FROM python:3.9-slim-buster  
 #Created a Base IMage
 
-WORKDIR /app
+WORKDIR /media/neeraj-gs/01D9957104FA35D0/CloudNativeApp/Cpu-Ram-Performance-Checker/app
 #Defiend a working DIrectry where our apllication wil lrun
 
-COPY requirements.txt .
+COPY /media/neeraj-gs/01D9957104FA35D0/CloudNativeApp/Cpu-Ram-Performance-Checker/requirements.txt .
 #Copied the requireemtns to the workign dir[app] 
 
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r /media/neeraj-gs/01D9957104FA35D0/CloudNativeApp/Cpu-Ram-Performance-Checker/requirements.txt
 #Run commnds to install all into image
 
-COPY . . 
+COPY /media/neeraj-gs/01D9957104FA35D0/CloudNativeApp/Cpu-Ram-Performance-Checker/app.py . 
 #Copy the code in app.py intot he image
 
 ENV FLASK_RUN_HOST=0.0.0.0
