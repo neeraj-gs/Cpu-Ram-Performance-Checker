@@ -49,7 +49,10 @@ Starting with the Project
 
 
     9. TO Run in Docker Container , We need to dockerize teh apllication 
-    
+        TO dockerize the apllication and deploy as a form of container 
+            In dcoker fiel craete instructions, so that apllication can create an image and run in the form of container 
+            We sue Python as our base image
+            
 
 
 
